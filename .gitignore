@@ -1,13 +1,38 @@
 .venv/
+venv/
+
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 
 .env
+.env.*
+!.env.example
+
+tests/
 
 outputs/
 *.stl
 *.blend
-*.png
+*.blend1
+
+dataset6/
+input1/
+input_images/
+
+*.tmp
+*.log
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.npz
 
 .vscode/
+.idea/
 .DS_Store
+Thumbs.db
