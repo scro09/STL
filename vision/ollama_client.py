@@ -57,6 +57,8 @@ def _parse_json_response(raw_text: str) -> dict[str, Any]:
     return parsed
 
 
+
+
 def _request_structured_json(prompt: str, image_paths: Sequence[Path]) -> dict[str, Any]:
     if not image_paths:
         raise ValueError("At least one RGB image is required for Ollama Vision.")
